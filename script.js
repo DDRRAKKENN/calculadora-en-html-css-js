@@ -5,5 +5,5 @@ function sumar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)+parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`el resultado de la suma de ${valor1} y el valor ${valor2} es ${res}`);
+    document.getElementById("resultado").innerHTML=(`El resultado de la suma de ${valor1} y el valor ${valor2} es ${res}`);
 };
