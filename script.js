@@ -7,7 +7,7 @@ function sumar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)+parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
+    document.getElementById("resultado").innerHTML=${res};
 };
 
 function restar(){
@@ -17,7 +17,7 @@ function restar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)-parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
+    document.getElementById("resultado").innerHTML=${res};
 };
 
 function multiplicar(){
@@ -27,7 +27,7 @@ function multiplicar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)*parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
+    document.getElementById("resultado").innerHTML=${res};
 };
 
 function dividir(){
@@ -37,5 +37,5 @@ function dividir(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)/parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
+    document.getElementById("resultado").innerHTML=${res};
 };
