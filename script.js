@@ -1,3 +1,5 @@
+
+
 function sumar(){
     var valor1,valor2;  
     
@@ -5,8 +7,9 @@ function sumar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)+parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`El resultado de la suma de ${valor1} y el valor ${valor2} es ${res}`);
+    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
 };
+
 function restar(){
     var valor1,valor2;  
     
@@ -14,8 +17,9 @@ function restar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)-parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`El resultado de la resta de ${valor1} y el valor ${valor2} es ${res}`);
+    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
 };
+
 function multiplicar(){
     var valor1,valor2;  
     
@@ -23,8 +27,9 @@ function multiplicar(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)*parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`El resultado de la multiplicacion de ${valor1} y el valor ${valor2} es ${res}`);
+    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
 };
+
 function dividir(){
     var valor1,valor2;  
     
@@ -32,5 +37,5 @@ function dividir(){
     valor2=document.getElementById("valor2").value;
     res=parseInt(valor1)/parseInt(valor2);
     
-    document.getElementById("resultado").innerHTML=(`El resultado de dividir  ${valor1} y el valor ${valor2} es ${res}`);
+    document.getElementById("resultado").innerHTML=(`Resultado: ${res}`);
 };
