@@ -1,7 +1,17 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: cornflowerblue;
+}
+
 label {
     color: darkblue;
     font-weight: bold;
-    font-size: medium;
+    font-size: large;
     font-style: italic;
 }
 
@@ -11,10 +21,14 @@ input {
     box-sizing: content-box;
 }
 
-#resultado {
+button {
+    padding: 6px;
+    background-color: grey;
+}
 
-    background-color: black ;
-    color: white;
+#resultado {
+    background-color: white;
+    color: black;
     font-size: medium;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
